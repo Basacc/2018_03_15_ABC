@@ -2,31 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChangeColor : MonoBehaviour
-{
+public class ChangeColorsMesh : MonoBehaviour {
 
     public Color current;
-    public Color colorCube;
-    public Camera cam;
+    public Renderer objectToAffect;
     public List<Color> colors;
-    public Renderer cube;
 
     // Use this for initialization
     void Start()
     {
-        cam = GetComponent<Camera>();
+        objectToAffect = GetComponent<Renderer>();
         colors = FillTabColor();
-        //current = RndColor();
-        //wanted = RndColor();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        current = Color.Lerp(RndColor(), RndColor(), Time.deltaTime*8);
-        cam.backgroundColor = current;
-        colorCube = Color.Lerp(RndColor(), RndColor(), Time.deltaTime * 5);
-        //cube
+        current = Color.Lerp(RndColor(), RndColor(), Time.deltaTime);
+        objectToAffect.material.color = current;
+
     }
 
 
