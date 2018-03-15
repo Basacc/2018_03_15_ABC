@@ -13,7 +13,10 @@ public class LoadSceneCountdown : MonoBehaviour {
         Invoke("LoadNextScene", _loadNextSceneAfter);
     }
     public void LoadNextScene() {
-        SceneManager.LoadSceneAsync(_sceneNameToLoad);
+
+            SceneManager.LoadSceneAsync(_sceneNameToLoad);
     }
+
+    
 
 }
