@@ -10,10 +10,10 @@ public class LoadLevelAutomaticly : MonoBehaviour {
         StartCounting();
     }
    
-    public void OnLevelWasLoaded(int level)
-    {
-        StartCounting();
-    }
+    //public void OnLevelWasLoaded(int level)
+    //{
+    //    StartCounting();
+    //}
 
     public void StartCounting()
     {

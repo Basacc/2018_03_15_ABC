@@ -456,6 +456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _menuName: WelcomeMenu
   _levelsName:
+  - SceneMigeotGuillaumeLVL1
   - A
   - B
   _index: 0
@@ -707,7 +708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sceneNameToLoad: WelcomeMenu
-  _loadNextSceneAfter: 10
+  _loadNextSceneAfter: 3
 --- !u!1 &1861880470
 GameObject:
   m_ObjectHideFlags: 0

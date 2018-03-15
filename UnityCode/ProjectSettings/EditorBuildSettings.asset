@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Team/StreeEloi/Scene/B.unity
     guid: 315368fdcebb708468b26d6c48b948ed
+  - enabled: 1
+    path: Assets/_Team/MigeotGuillaume/_Project/_Scene/SceneMigeotGuillaumeLVL1.unity
+    guid: bae5e6f98be246e4a8f00062d098f640
