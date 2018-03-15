@@ -566,7 +566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eef85e4ec07e6347b454487922ddf98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sceneToLoad: Default Scene
+  _sceneToLoad: A
 --- !u!1 &1009958889
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,7 +708,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 320.00006, y: 240}
   savedColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  savedTextUV0: {x: 0.09375, y: 0.23828125}
+  savedTextUV0: {x: 0.578125, y: 0.6464844}
   savedFill: 0
 --- !u!114 &1229051310
 MonoBehaviour:
