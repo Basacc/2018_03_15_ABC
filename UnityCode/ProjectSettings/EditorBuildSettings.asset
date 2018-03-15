@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Team/StreeEloi/Scene/LogoCreditMenu.unity
+    guid: 4f05f8ef03a62aa48af4bfa0423d5872
+  - enabled: 1
+    path: Assets/_Team/StreeEloi/Scene/WelcomeMenu.unity
+    guid: b9e65db37c514e245a768e4b606b7d2f
