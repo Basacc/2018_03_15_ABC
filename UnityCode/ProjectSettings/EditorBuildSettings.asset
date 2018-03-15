@@ -11,3 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Team/StreeEloi/Scene/WelcomeMenu.unity
     guid: b9e65db37c514e245a768e4b606b7d2f
+  - enabled: 1
+    path: Assets/_Team/StreeEloi/Scene/A.unity
+    guid: 6985ceb1263c6d04295df016f4a61b95
+  - enabled: 1
+    path: Assets/_Team/StreeEloi/Scene/B.unity
+    guid: 315368fdcebb708468b26d6c48b948ed
